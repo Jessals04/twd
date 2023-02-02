@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -6,7 +8,18 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        AbrilFatface: ['"Abril Fatface"'],
+        PTSans: ['"PT Sans"']
+      },
+      colors: {
+        'white': '#FFFFFF',
+        'off-white': '#F5F5F5',
+        'grey': '#E6E6E6',
+        'charcoal': '#39393A'
+      }
+    },
   },
   plugins: [],
 }
