@@ -25,7 +25,7 @@ export default function LandingScreen() {
                     </p>
                 </div>
             </div>
-            <div><Image className="rounded-lg drop-md" src={ManWithDumbells} alt={"Man With Dumbells"} width={324}/></div>
+            <div><Image className="rounded-lg drop-md" src={ManWithDumbells} alt={"Man With Dumbells"} width={324} height={300}/></div>
           </div>
           <div className="flex flex-col gap-8 content-center items-center pb-2 pt-28">
             <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href={""}>Enquire Now</Link>

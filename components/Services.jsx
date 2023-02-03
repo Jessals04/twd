@@ -9,7 +9,7 @@ export default function Services() {
         <main className='text-xl bg-charcoal drop-lg'>
             <div className='px-20 py-10 flex flex-col gap-16 items-center'>
                 <div className='flex'>
-                    <Image className='rounded-xl object-cover w-[480px] h-80 max-w-lg z-10 drop-md' src={ManWithRopes} alt={"Man with ropes"} width={300}/>
+                    <Image className='rounded-xl object-cover w-[480px] h-80 max-w-lg z-10 drop-md' src={ManWithRopes} alt={"Man with ropes"} width={3000} height={3000}/>
 
                     <div className='flex flex-col gap-3 py-10 pl-24 pr-8 my-auto bg-grey max-w-xl rounded-lg -translate-x-16 translate-y-16'>
                         <h2 className='font-AbrilFatface text-2xl'>We help you smash your goals</h2>
@@ -27,7 +27,7 @@ export default function Services() {
                         </p>
                     </div>
 
-                    <Image className='rounded-xl object-cover w-[480px] h-80 max-w-lg z-10 drop-md' src={MenWithWorkoutPlan} alt={"Men with workout plan"} width={300}/>
+                    <Image className='rounded-xl object-cover w-[480px] h-80 max-w-lg z-10 drop-md' src={MenWithWorkoutPlan} alt={"Men with workout plan"} width={3000} height={3000}/>
                 </div>
             </div>
         </main>
