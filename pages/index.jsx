@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
+import LandingScreen from '@/components/LandingScreen'
+import Services from '@/components/Services'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +19,8 @@ export default function Home() {
       </Head>
       <main className='h-screen font-PTSans'>
         <NavBar/>
-        <p className='h-full flex justify-center items-center text-3xl font-bold'>T.W.D.</p>
+        <LandingScreen/>
+        <Services/>
       </main>
     </>
   )
