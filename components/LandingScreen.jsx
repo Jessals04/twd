@@ -13,7 +13,7 @@ export default function LandingScreen() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className='pt-20'>
+        <main className='pt-20 pb-6'>
           <div className="flex justify-center content-center items-center">
             <div className="flex flex-col gap-10 my-auto -z-10">
                 <div><h1 className="font-AbrilFatface text-4xl translate-x-44 translate-y-28">TrainWithDean</h1></div>
@@ -25,9 +25,9 @@ export default function LandingScreen() {
                     </p>
                 </div>
             </div>
-            <div><Image className="rounded-lg" src={ManWithDumbells} alt={"Man With Dumbells"} width={324}/></div>
+            <div><Image className="rounded-lg drop-md" src={ManWithDumbells} alt={"Man With Dumbells"} width={324}/></div>
           </div>
-          <div className="flex flex-col gap-4 content-center items-center pb-2 pt-28">
+          <div className="flex flex-col gap-8 content-center items-center pb-2 pt-28">
             <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href={""}>Enquire Now</Link>
             <div className="flex gap-6">
                 {/* Twitter */}
