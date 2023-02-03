@@ -21,7 +21,7 @@ export default function LandingScreen() {
                 <div className="flex flex-col gap-3 py-10 pl-5 pr-16 bg-grey max-w-xl rounded-lg translate-x-16 translate-y-28">
                     <h2 className="font-AbrilFatface text-2xl">Dedicate yourself to becoming the best version of yourself.</h2>
                     <p className="text-lg">
-                    At TWD our goal is to focus on your goals, whilst creating a pathway and structure that's easy to follow. Allowing you to create the best version of yourself.
+                    At TWD our goal is to focus on your goals, whilst creating a pathway and structure that&apos;s easy to follow. Allowing you to create the best version of yourself.
                     </p>
                 </div>
             </div>
