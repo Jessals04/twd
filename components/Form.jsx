@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 
-const Form = () => {
+export default function Form() {
 
     const form = useRef();
 
@@ -65,5 +65,3 @@ const Form = () => {
         </form>
     </>;
 };
-
-export default Form;
