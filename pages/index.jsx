@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar'
 import LandingScreen from '@/components/LandingScreen'
 import Services from '@/components/Services'
@@ -18,11 +16,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='h-screen font-PTSans'>
+      <main className='h-screen font-PTSans scroll-smooth'>
+        
         <NavBar/>
-        <LandingScreen/>
-        <Services/>
-        <CTA/>
+
+        <div id="landing">
+          <LandingScreen/>
+        </div>
+
+        <div id="services">
+          <Services/>
+        </div>
+
+        <div id="cta">
+          <CTA/>
+        </div>
       </main>
     </>
   )

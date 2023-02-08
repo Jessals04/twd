@@ -28,7 +28,7 @@ export default function LandingScreen() {
             <div><Image className="rounded-lg drop-md" src={ManWithDumbells} alt={"Man With Dumbells"} width={324} height={300}/></div>
           </div>
           <div className="flex flex-col gap-8 content-center items-center pb-2 pt-28">
-            <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href={""}>Enquire Now</Link>
+            <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href="#cta">Enquire Now</Link>
             <div className="flex gap-6">
                 {/* Twitter */}
                 <div className='hover:animate-bounce'>
@@ -38,13 +38,13 @@ export default function LandingScreen() {
                 </div>
                 {/* Facebook */}
                 <div className='hover:animate-bounce'>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=100083341510975" target="_blank" rel="noreferrer">
                         <SiFacebook color='#39393A' fontSize={20}/>
                     </a>
                 </div>
                 {/* Instagram */}
                 <div className='hover:animate-bounce'>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/train_with_dean/" target="_blank" rel="noreferrer">
                         <SiInstagram color='#39393A' fontSize={20}/>
                     </a>
                 </div>
