@@ -65,7 +65,7 @@ export default function Form() {
 
             <label className="text-lg">1. How many days a week do you exercise?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='days_per_week' type="text" required>
-                <option value="0">0 (I don't exercise)</option>
+                <option value="0">0 (I don&apos;t exercise)</option>
                 <option value="1-2">1-2 days</option>
                 <option value="3-5">3-5 days</option>
                 <option value="6+">6+ days</option>
@@ -118,8 +118,8 @@ export default function Form() {
             <label className="text-lg">7. Do you have an exercise plan?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='exercise_plan' type="text" required>
                 <option value="yes, for certain periods">Yes, I have exercise plans for certain periods.</option>
-                <option value="yes, but can't practice it">Yes, I have an exercise plan but I can't fully practice it.</option>
-                <option value="no">No, I don't have one.</option>
+                <option value="yes, but can't practice it">Yes, I have an exercise plan but I can&apos;t fully practice it.</option>
+                <option value="no">No, I don&apos;t have one.</option>
                 <option value="has a PT">I work with a personal trainer.</option>
             </select>
 
@@ -132,7 +132,7 @@ export default function Form() {
             <label className="text-lg">9. Do you have a nutrition plan?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='nutrition_plan' type="text" required>
                 <option value="yes, count calories and consume supplements">Yes, I count calories and consume athletic food supplements.</option>
-                <option value="yes, count colories only">Yes, I count calories but don't consume any supplements.</option>
+                <option value="yes, count colories only">Yes, I count calories but don&apos;t consume any supplements.</option>
                 <option value="no, healthy diet">No, my diet is healthy.</option>
                 <option value="no, random diet">No, my diet is random.</option>
             </select>
