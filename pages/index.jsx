@@ -16,21 +16,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='h-screen font-PTSans scroll-smooth'>
-        
-        <NavBar/>
+      <main className='font-PTSans scroll-smooth'>
 
-        <div id="landing">
-          <LandingScreen/>
+        <div>
+
+          <NavBar/>
+
+          <div id="landing">
+            <LandingScreen/>
+          </div>
+
+          <div id="services">
+            <Services/>
+          </div>
+
+          <div id="cta">
+            <CTA/>
+          </div>
+          
         </div>
 
-        <div id="services">
-          <Services/>
-        </div>
-
-        <div id="cta">
-          <CTA/>
-        </div>
       </main>
     </>
   )
