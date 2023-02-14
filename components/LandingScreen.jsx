@@ -15,19 +15,19 @@ export default function LandingScreen() {
         </Head>
         <main className='pt-20 pb-6'>
           <div className="flex justify-center content-center items-center">
-            <div className="flex flex-col gap-10 my-auto -z-10">
-                <div><h1 className="font-AbrilFatface text-4xl translate-x-36 md:translate-x-64 lg:translate-x-44 lg:translate-y-28">TrainWithDean</h1></div>
+            <div className="flex flex-col justify-center gap-10 my-auto -z-10">
+                <div><h1 className="font-AbrilFatface text-4xl translate-x-24 md:translate-x-64 lg:translate-x-44 lg:translate-y-28">TrainWithDean</h1></div>
 
-                <div className="flex flex-col gap-3 py-10 pl-5 lg:pr-16 bg-grey w-96 md:w-auto max-w-xl rounded-lg translate-x-24 lg:translate-x-16 lg:translate-y-28">
+                <div className="flex flex-col gap-3 py-10 px-5 lg:pr-16 bg-grey w-auto max-w-xl rounded-lg translate-x-24 lg:translate-x-16 lg:translate-y-28">
                     <h2 className="font-AbrilFatface text-lg md:text-2xl">Dedicate yourself to becoming the best version of yourself.</h2>
-                    <p className="text-sm md:text-base lg:text-lg pr-56 lg:pr-0">
+                    <p className="text-sm md:text-base lg:text-lg md:pr-56 lg:pr-0">
                     At TWD our goal is to focus on your goals, whilst creating a pathway and structure that&apos;s easy to follow. Allowing you to create the best version of yourself.
                     </p>
                 </div>
             </div>
-            <div><Image className="rounded-lg drop-md mt-20 max-w-[200px] lg:max-w-[300px] max-h-[600px] -translate-x-28 translate-y-32 lg:translate-x-0 lg:translate-y-0" src={ManWithDumbells} alt={"Man With Dumbells"} width={4000} height={6000}/></div>
+            <div><Image className="collapse md:visible rounded-lg drop-md mt-20 max-w-[200px] lg:max-w-[300px] max-h-[600px] md:-translate-x-28 md:translate-y-32 lg:translate-x-0 lg:translate-y-0" src={ManWithDumbells} alt={"Man With Dumbells"} width={4000} height={6000}/></div>
           </div>
-          <div className="flex flex-col gap-8 content-center items-center pb-2 pt-44 lg:pt-28">
+          <div className="flex flex-col gap-8 content-center items-center pb-2 pt-8 md:pt-44 lg:pt-28">
             <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href="#cta">Enquire Now</Link>
             <div className="flex gap-6">
                 {/* Twitter */}

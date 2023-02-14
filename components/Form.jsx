@@ -39,19 +39,19 @@ export default function Form() {
 
 
     return <>
-        <form className="flex flex-col gap-2 w-5/6 max-w-3xl px-8" ref={form} onSubmit={sendEmail}>
-            <label className="text-xl">Full Name</label>
+        <form className="flex flex-col gap-2 w-5/6 max-w-3xl px-8 text-sm md:text-base lg:text-lg" ref={form} onSubmit={sendEmail}>
+            <label className="text-base md:text-lg lg:text-xl">Full Name</label>
             <input className="text-charcoal rounded-lg px-2 py-3" name='full_name' type="text" placeholder="Full Name" required />
-            <label className="text-xl pt-3">Email</label>
+            <label className="text-base md:text-lg lg:text-xl pt-3">Email</label>
             <input className="text-charcoal rounded-lg px-2 py-3" name='email' type="email" placeholder="Email" required />
-            <label className="text-xl pt-3">Phone Number (optional)</label>
+            <label className="text-base md:text-lg lg:text-xl pt-3">Phone Number (optional)</label>
             <input className="text-charcoal rounded-lg px-2 py-3" name='phone_number' type="number" placeholder="Phone Number" />
-            <label className="text-xl pt-3">Session Length</label>
+            <label className="text-base md:text-lg lg:text-xl pt-3">Session Length</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name="session_length" id="">
                 <option value="30min">30 Minutes - $50</option>
                 <option value="45min">45 Minutes - $65</option>
             </select>
-            <label className="text-xl pt-3">Preferred Day of Week</label>
+            <label className="text-base md:text-lg lg:text-xl pt-3">Preferred Day of Week</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name="pref_day_of_week" id="">
                 <option value="mon">Monday</option>
                 <option value="tue">Tuesday</option>
@@ -60,10 +60,10 @@ export default function Form() {
                 <option value="fri">Friday</option>
             </select>
 
-            <label className="text-2xl pt-6 mx-auto">Fitness Questionnaire</label>
+            <label className="text-lg md:text-xl lg:text-2xl pt-6 mx-auto">Fitness Questionnaire</label>
             
 
-            <label className="text-lg">1. How many days a week do you exercise?</label>
+            <label className="text-sm md:text-base lg:text-lg">1. How many days a week do you exercise?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='days_per_week' type="text" required>
                 <option value="0">0 (I don&apos;t exercise)</option>
                 <option value="1-2">1-2 days</option>
@@ -71,7 +71,7 @@ export default function Form() {
                 <option value="6+">6+ days</option>
             </select>
 
-            <label className="text-lg">2. How much time do you usually spend for a workout?</label>
+            <label className="text-sm md:text-base lg:text-lg">2. How much time do you usually spend for a workout?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='time_per_workout' type="text" required>
                 <option value="0-30">0-30 mins</option>
                 <option value="30-60">30-60 mins</option>
@@ -79,7 +79,7 @@ export default function Form() {
                 <option value="90+">90+ mins</option>
             </select>
 
-            <label className="text-lg">3. Where do you prefer to workout?</label>
+            <label className="text-sm md:text-base lg:text-lg">3. Where do you prefer to workout?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='pref_location' type="text" required>
                 <option value="gym">Gym</option>
                 <option value="home">Home</option>
@@ -87,7 +87,7 @@ export default function Form() {
                 <option value="other">Other</option>
             </select>
 
-            <label className="text-lg">4. When do you prefer to workout?</label>
+            <label className="text-sm md:text-base lg:text-lg">4. When do you prefer to workout?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='pref_time_to_workout' type="text" required>
                 <option value="early">Early Morning</option>
                 <option value="midday">Midday</option>
@@ -95,7 +95,7 @@ export default function Form() {
                 <option value="evening">Evening</option>
             </select>
 
-            <label className="text-lg">5. What type of exercises do you often do? (hold ctrl or cmd to select more than one)</label>
+            <label className="text-sm md:text-base lg:text-lg">5. What type of exercises do you often do? (hold ctrl or cmd to select more than one)</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='exercise_types' type="text" multiple size={6} required>
                 <option value="cardio">Cardio</option>
                 <option value="crossfit">Crossfit</option>
@@ -105,7 +105,7 @@ export default function Form() {
                 <option value="other">Other</option>
             </select>
 
-            <label className="text-lg">6. What is your main fitness goal? (hold ctrl or cmd to select more than one)</label>
+            <label className="text-sm md:text-base lg:text-lg">6. What is your main fitness goal? (hold ctrl or cmd to select more than one)</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='fitness_goal' type="text" multiple size={6} required>
                 <option value="lose weight">Lose weight</option>
                 <option value="gain weight">Gain weight</option>
@@ -115,7 +115,7 @@ export default function Form() {
                 <option value="other">Other</option>
             </select>
 
-            <label className="text-lg">7. Do you have an exercise plan?</label>
+            <label className="text-sm md:text-base lg:text-lg">7. Do you have an exercise plan?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='exercise_plan' type="text" required>
                 <option value="yes, for certain periods">Yes, I have exercise plans for certain periods.</option>
                 <option value="yes, but can't practice it">Yes, I have an exercise plan but I can&apos;t fully practice it.</option>
@@ -123,13 +123,13 @@ export default function Form() {
                 <option value="has a PT">I work with a personal trainer.</option>
             </select>
 
-            <label className="text-lg">8. Do you have a workout partner?</label>
+            <label className="text-sm md:text-base lg:text-lg">8. Do you have a workout partner?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='partner' type="text" required>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>
 
-            <label className="text-lg">9. Do you have a nutrition plan?</label>
+            <label className="text-sm md:text-base lg:text-lg">9. Do you have a nutrition plan?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='nutrition_plan' type="text" required>
                 <option value="yes, count calories and consume supplements">Yes, I count calories and consume athletic food supplements.</option>
                 <option value="yes, count colories only">Yes, I count calories but don&apos;t consume any supplements.</option>
@@ -137,7 +137,7 @@ export default function Form() {
                 <option value="no, random diet">No, my diet is random.</option>
             </select>
 
-            <label className="text-lg">10. How much does it cost per month to reach your fitness goals currently?</label>
+            <label className="text-sm md:text-base lg:text-lg">10. How much does it cost per month to reach your fitness goals currently?</label>
             <select className="text-charcoal rounded-lg px-2 py-3" name='fitness_goal_cost' type="text" required>
                 <option value="<100">Less than $100</option>
                 <option value="100-200">$100-$200</option>
@@ -145,10 +145,10 @@ export default function Form() {
                 <option value="500+">$500+</option>
             </select>
 
-            <label className="text-xl pt-3">11. What motivates you best to reach your fitness goals? (optional)</label>
+            <label className="text-sm md:text-base lg:text-lg pt-3">11. What motivates you best to reach your fitness goals? (optional)</label>
             <textarea className="text-charcoal rounded-lg px-2 py-3" name='motivation' type="text" placeholder="Type here..."/>
 
-            <label className="text-xl pt-3">12. What is the biggest challenge that can keep you from achieving your fitness goals? (optional)</label>
+            <label className="text-sm md:text-base lg:text-lg pt-3">12. What is the biggest challenge that can keep you from achieving your fitness goals? (optional)</label>
             <textarea className="text-charcoal rounded-lg px-2 py-3" name='challenge' type="text" placeholder="Type here..."/>
 
             <button

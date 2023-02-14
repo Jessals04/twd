@@ -33,7 +33,7 @@ export default function Home() {
           <div id="cta">
             <CTA/>
           </div>
-          
+
         </div>
 
       </main>

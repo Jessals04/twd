@@ -138,3 +138,19 @@
     box-shadow: 0px 0px 12px black ;
 }
 /* ---------------------------------- */
+
+.rounded-top-xl {
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.rounded-bottom-xl {
+    border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.rounded-top-lg {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.rounded-bottom-lg {
+    border-radius: 0 0 0.5rem 0.5rem;
+}
