@@ -20,7 +20,9 @@ module.exports = {
         'charcoal': '#39393A'
       },
       backgroundImage: {
-        'twd_bg_image' : "url('../assets/bg_image.png')"
+        // using absolute path because relative was
+        // not working after deployment
+        'twd_bg_image' : "url('https://raw.githubusercontent.com/Jessals04/twd/main/assets/bg_image.png')"
       },
       animation: {
         'bounce-short': 'bounce 1s ease-in-out 3.5'
