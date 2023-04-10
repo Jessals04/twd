@@ -24,7 +24,7 @@ export default function Home() {
             <NavBar/>
           </div>
 
-          <div id="landing">
+          <div id="landing" className="pt-16 md:pt-8 lg:pt-4">
             <LandingScreen/>
           </div>
 
