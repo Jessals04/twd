@@ -152,7 +152,7 @@ export default function Form() {
             <textarea className="text-charcoal rounded-lg px-2 py-3" name='challenge' type="text" placeholder="Type here..."/>
 
             <button
-                className='bg-off-white text-charcoal text-lg font-bold mt-5 py-1 px-5 rounded-lg ml-auto focus:animate-bounce-short'
+                className='bg-off-white text-charcoal text-lg font-bold mt-5 py-1 px-5 rounded-lg mx-auto md:mx-px md:ml-auto focus:animate-bounce-short'
                 type="submit"
                 value="Send"
             >Enquire Now</button>

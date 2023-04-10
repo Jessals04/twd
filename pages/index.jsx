@@ -4,6 +4,7 @@ import NavBar from '@/components/NavBar'
 import LandingScreen from '@/components/LandingScreen'
 import Services from '@/components/Services'
 import CTA from '@/components/CTA'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,6 +35,10 @@ export default function Home() {
 
           <div id="cta">
             <CTA/>
+          </div>
+
+          <div>
+            <Footer />
           </div>
 
         </div>

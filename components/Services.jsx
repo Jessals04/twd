@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import ManWithRopes from '../assets/pexels-cottonbro-studio-4752861.jpg'
 import MenWithWorkoutPlan from '../assets/pexels-mikhail-nilov-6740171.jpg'
