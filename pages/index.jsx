@@ -20,7 +20,9 @@ export default function Home() {
 
         <div>
 
-          <NavBar/>
+          <div className="fixed w-full z-50">
+            <NavBar/>
+          </div>
 
           <div id="landing">
             <LandingScreen/>
