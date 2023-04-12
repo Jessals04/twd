@@ -1,18 +1,10 @@
-import { useState } from "react"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
 import ManWithDumbells from "../assets/pexels-mister-mister-3490348.jpg"
 import { SiTwitter, SiFacebook, SiInstagram } from 'react-icons/si'
-import Pricing from "./pricing"
 
 export default function LandingScreen() {
-  const [showPricing, setshowPricing] = useState(false);
-
-  function handleSetShowPricing() {
-    setshowPricing(!showPricing);
-  }
-
     return (
       <>
         <Head>
@@ -35,13 +27,8 @@ export default function LandingScreen() {
             </div>
             <div><Image className="collapse md:visible rounded-lg drop-md mt-20 max-w-[200px] lg:max-w-[300px] max-h-[600px] md:-translate-x-28 md:translate-y-32 lg:translate-x-0 lg:translate-y-0" src={ManWithDumbells} alt={"Man With Dumbells"} width={4000} height={6000}/></div>
           </div>
-          <div className="flex flex-col gap-4 content-center items-center pb-2 pt-8 md:pt-44 lg:pt-28">
+          <div className="flex flex-col gap-8 content-center items-center pb-2 pt-8 md:pt-44 lg:pt-28">
             <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href="#cta">Enquire Now</Link>
-
-            <div>
-              <Pricing showPricing={showPricing} handleSetShowPricing={handleSetShowPricing} />
-            </div>
-
             <div className="flex gap-6">
                 {/* Twitter */}
                 <div className='hover:animate-bounce'>

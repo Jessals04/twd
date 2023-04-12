@@ -8,7 +8,7 @@ export default function Pricing({ showPricing, handleSetShowPricing }) {
     return (
         <div className="w-full flex flex-col justify-center">
             <button
-                className="underline"
+                className="underline hover:no-underline m-auto flex gap-2"
                 onClick={handleClick}
             >Pricing</button>
 
