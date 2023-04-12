@@ -8,19 +8,10 @@ export default function Pricing({ showPricing, handleSetShowPricing }) {
 
     return (
         <div className="w-full flex flex-col justify-center">
-            {
-                showPricing
-                ?
-                <button
-                    className="underline hover:no-underline m-auto flex gap-2"
-                    onClick={handleClick}
-                ><AiOutlineUpCircle className='my-auto' /> Pricing <AiOutlineUpCircle className='my-auto' /></button>
-                :
-                <button
-                    className="underline hover:no-underline m-auto flex gap-2"
-                    onClick={handleClick}
-                ><AiOutlineDownCircle className='my-auto' /> Pricing <AiOutlineDownCircle className='my-auto' /></button>
-            }
+            <button
+                className="underline hover:no-underline m-auto flex gap-2"
+                onClick={handleClick}
+            >Pricing</button>
 
             {
                 showPricing

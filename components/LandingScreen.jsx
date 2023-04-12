@@ -7,10 +7,10 @@ import { SiTwitter, SiFacebook, SiInstagram } from 'react-icons/si'
 import Pricing from "./pricing"
 
 export default function LandingScreen() {
-  const [showPricing, setshowPricing] = useState(false);
+  const [showPricing, setShowPricing] = useState(false);
 
   function handleSetShowPricing() {
-    setshowPricing(!showPricing);
+    setShowPricing(!showPricing);
   }
 
     return (
