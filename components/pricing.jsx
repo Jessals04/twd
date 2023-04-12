@@ -1,3 +1,4 @@
+import { AiOutlineUpCircle, AiOutlineDownCircle } from 'react-icons/ai';
 
 export default function Pricing({ showPricing, handleSetShowPricing }) {
 
