@@ -4,14 +4,8 @@ import Image from "next/image"
 import Link from "next/link"
 import ManWithDumbells from "../assets/pexels-mister-mister-3490348.jpg"
 import { SiTwitter, SiFacebook, SiInstagram } from 'react-icons/si'
-import Pricing from "./pricing"
 
 export default function LandingScreen() {
-  const [showPricing, setShowPricing] = useState(false);
-
-  function handleSetShowPricing() {
-    setShowPricing(!showPricing);
-  }
 
     return (
       <>
@@ -37,10 +31,6 @@ export default function LandingScreen() {
           </div>
           <div className="flex flex-col gap-4 content-center items-center pb-2 pt-8 md:pt-44 lg:pt-28">
             <Link className='bg-charcoal text-white text-lg font-bold py-1 px-5 rounded-lg' href="#cta">Enquire Now</Link>
-
-            <div>
-              <Pricing showPricing={showPricing} handleSetShowPricing={handleSetShowPricing} />
-            </div>
 
             <div className="flex gap-6">
                 {/* Twitter */}
